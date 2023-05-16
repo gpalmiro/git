@@ -1,5 +1,5 @@
 <?php
-// Inicialize a sessão
+// Inicialize a sssão
 session_start();
 
 // Verifique se o usuário já está logado, em caso afirmativo, redirecione-o para a página de boas-vindas

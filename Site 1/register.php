@@ -2,7 +2,7 @@
 // Incluir arquivo de configuração
 require_once "config.php";
 
-// Defina variáveis e inicialize com valores vazios
+// Defina variávis e inicialize com valores vazios
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
 
