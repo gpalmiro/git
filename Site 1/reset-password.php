@@ -18,7 +18,7 @@ $new_password_err = $confirm_password_err = "";
 // Processando dados do formulário quando o formulário é enviado
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    // Validar nova senha
+    // Validar nva senha
     if(empty(trim($_POST["new_password"]))){
         $new_password_err = "Por favor insira a nova senha.";
     } elseif(strlen(trim($_POST["new_password"])) < 6){
@@ -27,7 +27,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $new_password = trim($_POST["new_password"]);
     }
 
-    // Validar e confirmar a senha
+    // Validr e confirmar a senha
     if(empty(trim($_POST["confirm_password"]))){
         $confirm_password_err = "Por favor, confirme a senha.";
     } else{
